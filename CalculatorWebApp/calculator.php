@@ -11,9 +11,25 @@
  *
  * @author Mainul Hasan
  */
-class Calculator {
-    public $first_number;
-    public $second_number;
+class Calculator {  
+    public function add($first_no,$second_no)
+    {
+        return $first_no + $second_no;
+    }
     
-    public function add()
+    public function subtract($first_no,$second_no)
+    {
+        return $first_no-$second_no;
+    }
+    
+    public function multiply($first_no,$second_no)
+    {
+        return $first_no*$second_no;
+    }
+    
+    public function divide($first_no,$second_no)
+    {
+        return $first_no/$second_no;
+    }
+
 }
