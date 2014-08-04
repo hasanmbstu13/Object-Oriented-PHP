@@ -11,8 +11,11 @@ and open the template in the editor.
     </head>
     <body>
         <?php
+            require_once 'person.php';
             session_start();
-            echo $_SESSION['a_value'];
+            $person = $_SESSION['a_person'];
+            echo $person->get_full_name()."<br/>";
+            echo $person->get_reverse_name();
         ?>
     </body>
 </html>

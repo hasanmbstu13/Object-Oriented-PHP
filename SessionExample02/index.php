@@ -15,8 +15,10 @@ and open the template in the editor.
             
         </form>
         <?php
+           require_once 'person.php';
            session_start();
-           $_SESSION['a_value'] = 1000;
+           $person = new Person('James', 'Locus', 'Scott');
+           $_SESSION['a_person'] = $person;
         ?>
     </body>
 </html>
