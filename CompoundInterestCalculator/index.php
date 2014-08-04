@@ -24,7 +24,7 @@ and open the template in the editor.
         </form>
         <?php
         require_once 'CompoundInterestCalculator.php';
-        $interest_calculator = new CompoundInterestCalculator();
+        $interest_calculator = new SimpleInterestCalculator();
 
         if (isset($_GET['calculateButton'])) {
             $interest_calculator->principle_amount = $_GET['principleAmountText'];

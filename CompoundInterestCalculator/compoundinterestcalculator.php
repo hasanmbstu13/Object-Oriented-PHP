@@ -11,7 +11,7 @@
  *
  * @author Mainul Hasan
  */
-class CompoundInterestCalculator {
+class SimpleInterestCalculator {
 
     public $principle_amount;
     public $annual_interest_rate;

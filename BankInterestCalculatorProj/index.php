@@ -21,7 +21,7 @@ and open the template in the editor.
         require_once 'interestcalculator.php';
         if(isset($_GET['calculateButton']))
         {
-            $interest_calculator = new InterestCalculator();
+            $interest_calculator = new SimpleInterestCalculator();
             $interest_calculator->principle_amount = $_GET['principleAmountText'];
             $interest_calculator->intrest_rate_of_a_year = $_GET['InterestRateText'];
             $interest_calculator->time_period = $_GET['yearText'];

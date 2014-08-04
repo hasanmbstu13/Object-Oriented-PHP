@@ -10,3 +10,10 @@ bin-release/
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
 /nbproject/private/
+/New Folder/nbproject/private/
+/CompoundInterestCalculatorProj/nbproject/private/
+/LunchBillCalculationProj/nbproject/private/
+/CircleProj/nbproject/private/
+/SalaryCalculatorWebApp/nbproject/private/
+/CalculatorWebApp/nbproject/private/
+/PersonProj/nbproject/private/
