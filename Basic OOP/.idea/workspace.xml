@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorldOOP.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HelloWorldOOP.php">
+      <file leaf-file-name="ClassProperties.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="33" selection-start="428" selection-end="428" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="442">
+            <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SleptYears.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.36042404" vertical-offset="0" max-vertical-offset="566">
               <folding />
             </state>
           </provider>
@@ -35,16 +44,7 @@
       <file leaf-file-name="HelloWorldOOPStatic.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleClass.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DefiningClasses/SimpleClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.41247833" vertical-offset="0" max-vertical-offset="577">
+            <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -63,6 +63,9 @@
         <option value="$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php" />
         <option value="$PROJECT_DIR$/HelloWorldOOP.php" />
         <option value="$PROJECT_DIR$/DefiningClasses/SimpleClass.php" />
+        <option value="$PROJECT_DIR$/DefiningClasses/SimpleClassWithReturn.php" />
+        <option value="$PROJECT_DIR$/DefiningClasses/ClassProperties.php" />
+        <option value="$PROJECT_DIR$/DefiningMethods/SleptYears.php" />
       </list>
     </option>
   </component>
@@ -72,8 +75,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-36" />
-    <option name="width" value="714" />
+    <option name="width" value="700" />
     <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -102,7 +104,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,7 +132,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="First Program" />
+              <option name="myItemId" value="DefiningMethods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -151,6 +152,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -183,22 +185,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-36" y="0" width="714" height="760" extended-state="0" />
+    <frame x="0" y="0" width="700" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16006097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2211838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -225,23 +227,59 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HelloWorldOOP.php">
+    <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="428" selection-end="428" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="442">
+        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorldOOP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="428" selection-end="428" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DefiningClasses/SimpleClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="0.41247833" vertical-offset="0" max-vertical-offset="577">
+        <state line="14" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningClasses/SimpleClassWithReturn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="0.058925476" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="234" selection-end="234" vertical-scroll-proportion="0.36042404" vertical-offset="0" max-vertical-offset="566">
           <folding />
         </state>
       </provider>
