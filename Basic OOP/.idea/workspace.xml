@@ -23,37 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassProperties.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
+      <file leaf-file-name="FruitOneFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DefiningObjects/FruitOneFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
+            <state line="8" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SleptYears.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
+      <file leaf-file-name="FruitConstructor.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DefiningConstructor/FruitConstructor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="55" selection-start="349" selection-end="404" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
+            <state line="11" column="17" selection-start="175" selection-end="175" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SleptYearsPassData.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYearsPassData.php">
+      <file leaf-file-name="FruitProgramConstructor.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DefiningConstructor/FruitProgramConstructor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="56" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7495591" vertical-offset="0" max-vertical-offset="567">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldOOPStatic.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+            <state line="17" column="15" selection-start="376" selection-end="376" vertical-scroll-proportion="0.78612715" vertical-offset="0" max-vertical-offset="552">
               <folding />
             </state>
           </provider>
@@ -76,6 +67,9 @@
         <option value="$PROJECT_DIR$/DefiningClasses/ClassProperties.php" />
         <option value="$PROJECT_DIR$/DefiningMethods/SleptYears.php" />
         <option value="$PROJECT_DIR$/DefiningMethods/SleptYearsPassData.php" />
+        <option value="$PROJECT_DIR$/DefiningObjects/FruitOneFile.php" />
+        <option value="$PROJECT_DIR$/DefiningConstructor/FruitConstructor.php" />
+        <option value="$PROJECT_DIR$/DefiningConstructor/FruitProgramConstructor.php" />
       </list>
     </option>
   </component>
@@ -85,10 +79,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="640" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -160,7 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DefiningMethods" />
+              <option name="myItemId" value="DefiningObjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -174,7 +166,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DefiningClasses" />
+              <option name="myItemId" value="DefiningConstructor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.HTML" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -217,7 +209,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="0" y="0" width="640" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -227,7 +219,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12197092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18900344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -259,25 +251,53 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
+    <entry file="file://$PROJECT_DIR$/DefiningObjects/FruitOneFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="16" column="15" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459">
+        <state line="21" column="55" selection-start="349" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYearsPassData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningObjects/FruitOneFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloWorldOOP.php">
@@ -295,30 +315,43 @@
         <state line="2" column="18" selection-start="25" selection-end="25" vertical-scroll-proportion="0.058925476" vertical-offset="0" max-vertical-offset="577" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DefiningClasses/ClassProperties.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="30" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.7469244" vertical-offset="0" max-vertical-offset="569" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYears.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="55" selection-start="349" selection-end="404" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="21" column="55" selection-start="349" selection-end="404" vertical-scroll-proportion="0.6274165" vertical-offset="0" max-vertical-offset="569" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DefiningMethods/SleptYearsPassData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7495591" vertical-offset="0" max-vertical-offset="567">
+        <state line="3" column="26" selection-start="34" selection-end="34" vertical-scroll-proportion="0.08963093" vertical-offset="0" max-vertical-offset="569" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First Program/HelloWorldOOPStatic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="367" selection-end="367" vertical-scroll-proportion="0.44815466" vertical-offset="0" max-vertical-offset="569" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningConstructor/FruitConstructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="175" selection-end="175" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningObjects/FruitOneFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="161" selection-end="161" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DefiningConstructor/FruitProgramConstructor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="15" selection-start="376" selection-end="376" vertical-scroll-proportion="0.78612715" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
