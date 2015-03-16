@@ -14,5 +14,5 @@ print "<br />";
 
 $myFruit = new FruitConstructor(8,3,4);
 $rtnVal = $myFruit ->addFruit();
-print "Yor have $rtnVal pieces of fruit";
+print "Now You have $rtnVal pieces of fruit";
 print "<br />";
