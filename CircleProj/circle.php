@@ -23,7 +23,7 @@ class Circle {
         }
         else
         {
-            return "The radius of the circle is 0 as a result diameter is alos 0.<br/>";
+            return "The radius of the circle is 0 as a result diameter is also 0.<br/>";
         }
     }
     
@@ -36,7 +36,7 @@ class Circle {
         }
         else
         {
-            return "The radius of the circle is 0 as a result perimeter is alos 0.<br/>";
+            return "The radius of the circle is 0 as a result perimeter is also 0.<br/>";
         }
     }
     
@@ -49,7 +49,7 @@ class Circle {
         }
         else
         {
-            return "The radius of the circle is 0 as a result area is alos 0.";
+            return "The radius of the circle is 0 as a result area is also 0.";
         }
     }
 }

@@ -5,7 +5,9 @@ try {
     $sql .= 'FROM names ';
     $sql .= 'ORDER BY name';
     $result = $db->query($sql);
-    $all = $result->fetchAll();
+    // $all = $result->fetchAll();// return both index and associative array
+    // $all = $result->fetchAll(PDO::FETCH_ASSOC); // return associative array
+    $all = $result->fetchAll(PDO::FETCH_NUM); // return indexed array
 } catch (Exception $e) {
      $error = $e->getMessage();
 }

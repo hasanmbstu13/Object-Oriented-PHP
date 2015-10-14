@@ -18,7 +18,7 @@ and open the template in the editor.
             <input type="submit" name="calculateButton" value ="Calculate"/>
         </form>
         <?php
-        require_once 'interestcalculator.php';
+        require_once 'simpleinterestcalculator.php';
         if(isset($_GET['calculateButton']))
         {
             $interest_calculator = new SimpleInterestCalculator();
