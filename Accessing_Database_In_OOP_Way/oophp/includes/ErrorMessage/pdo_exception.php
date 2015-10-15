@@ -1,13 +1,10 @@
 <?php
 try {
     require_once '../../includes/pdo_connect.php';
-    $sql = 'SELECT name, meaning, gender FROM names
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // This will provide whole error message
+    $sql = 'SELECT name, meaning, gender FROM naes
             ORDER BY name';
     $result = $db->query($sql);
-    $errorInfo = $db->errorInfo();
-    if (isset($errorInfo)) {
-        $error = $errorInfo[2]; //third element error array
-    }                           // give the message of the sql error this is more user friendly
 } catch (Exception $e) {
     $error = $e->getMessage();
 }
@@ -39,6 +36,6 @@ try {
     </tr>
     <?php } ?>
 </table>
-<?php } // end else?>
+<?php } ?>
 </body>
 </html>
