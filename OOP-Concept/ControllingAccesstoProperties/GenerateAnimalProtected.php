@@ -2,9 +2,10 @@
 
  	class Animal
  	{
- 		protected $species; //Protected variable is part of the extention chain but we cann't access the protected variable directly by extended class.
- 							//If call a variable protected in base class it will be directly useable in child class but we can't directly call the variable 
- 							//by using object of the child class.
+ 		//Protected variable is part of the extention chain but we cann't access the protected variable directly by extended class.
+ 		//If call a variable protected in base class it will be directly useable in child class but we can't directly call the variable 
+ 		//by using object of the child class.
+ 		protected $species; 
 
  		public function getSpecies()
  		{
