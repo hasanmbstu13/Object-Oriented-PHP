@@ -23,3 +23,19 @@ echo '<h2>Testing magic __get and __set</h2>';
 unset($address->postal_code);
 echo $address->postal_code = '2564';
 echo $address->display();
+// Now create a new address object with an array of properties and values.
+echo '<h2>Testing Address __construct with an array</h2>';
+// address object this time with an array is as a property
+$address_2 = new Address(array(
+	'street_address_1' => '123 Phony Ave',
+	'city_name' => 'Villageland',
+	'subdivision_name'=>'Region',
+	'postal_code'=>'67890',
+	'country_name'=>'Canada',
+	'time_created'=>'123156'
+	));
+echo '<tt><pre>' . var_export($address_2, TRUE) . '</pre></tt>';
+echo $address_2->display();
+
+echo '<h2>Address __toString</h2>';
+echo $address_2;

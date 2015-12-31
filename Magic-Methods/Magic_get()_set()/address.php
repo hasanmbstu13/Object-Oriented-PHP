@@ -27,27 +27,56 @@ class Address {
   protected $_time_created;
   protected $_time_updated;
   
+  // Constructor
+  // array $data optional array of property names and values.
+  function __construct($data = array()) {
+    $this->_time_created = time();
+    // Sanity check ensuring that the argument is really an array
+    // if not trigger an error and fail.
+    // Ensure that the Address can be populated.
+    if (!is_array($data)) {
+      trigger_error('Unable to construct address with a '.get_class($name));
+    }
+
+    // If there is data in the array, If there is at least one value,
+     // populate the Address with it.
+    if (count($data) > 0) {
+      foreach($data as $name => $value) {
+      // Special case for protected properties.
+      if (in_array($name, array(
+        'time_created',
+        'time_updated'
+        ))) {
+         $name = '_'.$name;
+      }
+      // The existing magic set method will trigger an error if we attempt to set
+      // an invalid property
+      $this->$name = $value; 
+     }
+    }
+  }
+
   /**
    * Magic __get.
    * @param string $name 
    * @return mixed
    */
-  // function __get($name) {
-  //   // Postal code lookup if unset.
-  //   if (!$this->_postal_code) {
-  //     $this->_postal_code = $this->_postal_code_guess();
-  //   }
+  function __get($name) {
+    // Postal code lookup if unset.
+    if (!$this->_postal_code) {
+      $this->_postal_code = $this->_postal_code_guess();
+    }
     
-  //   // Attempt to return a protected property by name.
-  //   $protected_property_name = '_' . $name;
-  //   if (property_exists($this, $protected_property_name)) {
-  //      return $this->$protected_property_name;
-  //   }
+    // Attempt to return a protected property by name.
+    $protected_property_name = '_' . $name;
+    if (property_exists($this, $protected_property_name)) {
+       return $this->$protected_property_name;
+    }
     
-  //   // Unable to access property; trigger error.
-  //   trigger_error('Undefined property via __get: ' . $name);
-  //   return NULL;
-  // }
+    // Unable to access property; trigger error.
+    trigger_error('Undefined property via __get: ' . $name);
+    return NULL;
+  }
   
   /**
    * Magic __set.
@@ -66,6 +95,12 @@ class Address {
     trigger_error('Undefined or unallowed property via __set(): ' . $name);
   }
   
+  // Magic __toString.
+  // return string
+  function __toString() {
+    return $this->display();
+  }
+
   /**
    * Guess the postal code given the subdivision and city name.
    * @todo Replace with a database lookup.
