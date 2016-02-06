@@ -28,6 +28,7 @@ try {
         <th>Gender</th>
     </tr>
     <?php foreach ($db->query($sql) as $row) : ?>
+    <?php print_r($row); exit; ?>
     <tr>
         <td><?php echo $row['name']; ?></td>
         <td><?php echo $row['meaning']; ?></td>
