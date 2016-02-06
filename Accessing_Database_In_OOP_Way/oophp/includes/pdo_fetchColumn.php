@@ -26,6 +26,8 @@ try {
     <tr>
         <th>Column</th>
     </tr>
+    <!-- fetchColumn() returns a single column -->
+    <!-- fetchColumn() is probably used for list -->
     <?php while($col = $result->fetchColumn(1)) : // by default return first column //argument will be set if we want the column as our expected.?> 
     <tr>
         <td><?php echo $col; ?></td>

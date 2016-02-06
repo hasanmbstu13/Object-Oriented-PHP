@@ -4,6 +4,7 @@ try {
     $sql  = 'SELECT name, meaning, gender '; 
     $sql .= 'FROM names ';
     $sql .= 'ORDER BY name';
+    // fetchAll() returns the results once and store them as a multidimensional array
     $result = $db->query($sql);
     // $all = $result->fetchAll();// return both index and associative array
     // $all = $result->fetchAll(PDO::FETCH_ASSOC); // return associative array
@@ -26,6 +27,7 @@ try {
 }
 ?>
 <pre>
+    <!-- The top level array is the row and the second array is the column -->
     <?php print_r($all); ?>
 </pre>
 <!-- <table>
