@@ -4,6 +4,7 @@ try {
     $sql  = 'SELECT name, meaning, gender '; 
     $sql .= 'FROM names ';
     $sql .= 'ORDER BY name';
+    // Execute the query and store the enter results set into $result
     $result = $db->query($sql);
 } catch (Exception $e) {
      $error = $e->getMessage();
@@ -28,6 +29,7 @@ try {
         <th>Meaning</th>
         <th>Gender</th>
     </tr>
+    <!-- Fetch will return one row at a time -->
     <?php while($row = $result->fetch()) : ?>
     <tr>
         <td><?php echo $row[0]; ?></td>
