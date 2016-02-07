@@ -9,6 +9,7 @@ if (isset($_GET['search'])) {
                 ORDER BY price';
         $stmt = $db->prepare($sql);
         $stmt->bindValue(':make', '%' . $_GET['make'] . '%');
+        // Here PDO::PARAM_INT means value must be integer
         $stmt->bindParam(':yearmade', $_GET['yearmade'], PDO::PARAM_INT);
         $stmt->bindParam(':price', $_GET['price'], PDO::PARAM_INT);
         $stmt->execute();

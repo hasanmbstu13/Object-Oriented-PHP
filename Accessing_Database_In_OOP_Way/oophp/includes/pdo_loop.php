@@ -27,6 +27,7 @@ try {
         <th>Meaning</th>
         <th>Gender</th>
     </tr>
+    <!-- Loop through the rowset returned by the successful excution of sql statement -->
     <?php foreach ($db->query($sql) as $row) : ?>
     <?php print_r($row); exit; ?>
     <tr>

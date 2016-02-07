@@ -6,9 +6,9 @@ try {
     $sql .= 'ORDER BY name';
     // Execute the query and store the enter results set into $result
     $result = $db->query($sql);
-    var_dump($result);
-    print_r($result);
-    exit;
+    // var_dump($result);
+    // print_r($result);
+    // exit;
 } catch (Exception $e) {
      $error = $e->getMessage();
 }
