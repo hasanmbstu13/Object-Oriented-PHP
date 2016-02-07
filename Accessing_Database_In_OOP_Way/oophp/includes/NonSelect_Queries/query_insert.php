@@ -7,8 +7,9 @@ try {
     $sql .= '"William", "resolute guardian", "boy"';
     $sql .= ')';
 	$result = $db->query($sql);
-	// var_dump($result);
-	echo $result->queryString;
+	var_dump($result);
+	// echo $result->queryString;
+    echo $result->queryString;
 } catch (Exception $e) {
     $error = $e->getMessage();
 }

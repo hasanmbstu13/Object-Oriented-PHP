@@ -1,4 +1,8 @@
 <?php
+// This program will checking a result set before display it 
+// If it found the result then load the table otherwise not.
+// To check whether a query has result to store it on a variable and then check it by a conditional expression and load the table if results found
+// If the result set empty the variable will be false.
 try {
     require_once '../includes/pdo_connect.php';
     $sql  = 'SELECT name, meaning, gender '; 

@@ -1,9 +1,13 @@
 <?php
     try {
         require_once '../includes/pdo_connect.php';
-        $count = $db->query('SELECT COUNT(*) FROM names WHERE name = "Alice" ');
+        // $count = $db->query('SELECT COUNT(*) FROM names WHERE name = "Alice" ');
+        $count = $db->query('SELECT COUNT(*) FROM names');
+        var_dump($count);
         // $count = $db->query('SELECT COUNT(*) FROM names ');
         $numrows = $count->fetchColumn();
+        var_dump($db);
+        var_dump($numrows);
         if($numrows){
             $sql  = 'SELECT name, meaning, gender '; 
             $sql .= 'FROM names ';
