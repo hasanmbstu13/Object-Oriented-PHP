@@ -1,7 +1,8 @@
 <?php
 try {
     require_once '../../includes/pdo_connect.php';
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // This will provide whole error message
+    // This will provide whole error message
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
     $sql = 'SELECT name, meaning, gender FROM names
             ORDER BY name';
     $result = $db->query($sql);

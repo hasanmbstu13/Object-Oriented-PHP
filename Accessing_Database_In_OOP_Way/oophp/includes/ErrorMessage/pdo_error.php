@@ -5,9 +5,11 @@ try {
             ORDER BY name';
     $result = $db->query($sql);
     $errorInfo = $db->errorInfo();
+    //third element error array
+   // give the message of the sql error this is more user friendly
     if (isset($errorInfo)) {
-        $error = $errorInfo[2]; //third element error array
-    }                           // give the message of the sql error this is more user friendly
+        $error = $errorInfo[2]; 
+    }                          
 } catch (Exception $e) {
     $error = $e->getMessage();
 }
